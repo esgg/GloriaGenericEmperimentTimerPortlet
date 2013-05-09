@@ -51,6 +51,7 @@ public class ExperimentsTimer extends MVCPortlet {
 
 	public void init() throws PortletException {
 
+		// Esto es mu feo, luego borrar
 		viewJSP = getInitParameter("view-jsp");
 
 		super.init();
